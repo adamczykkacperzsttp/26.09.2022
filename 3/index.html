@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <center><h2>Piekarnia "Świeżuch"</h2></center>
+
+    <form action="zamowienie.php">
+    <ul>
+        <li><h4>Chleb</h4>
+        <select name="chleb" id="chleb">
+            <option value="żytni">żytni</option>
+            <option value="pszenny">pszenny</option>
+            <option value="razowy">razowy</option>
+            <option value="wiejski">wiejski</option>
+        </select>
+        </li>
+        <li>
+            <h4>Bułki</h4>
+            <select name="Bułki" id="Bułki">
+                <option value="z makiem">z makiem</option>
+                <option value="z sezamem">z sezamem</option>
+                <option value="z kruszonką">z kruszonką</option>
+                <option value="z cynamonem">z cynamonem</option>
+            </select>
+        </li>
+        <li>
+            <h4>Ciasta</h4>
+            <select name="Ciasta" id="Ciasta">
+                <option value="rożek">rożek</option>
+                <option value="sorbet">sorbet</option>
+                <option value="kremówka">kremówka</option>
+                <option value="pączek">pączek</option>
+                <option value="eklerka">eklerka</option>
+            </select>
+        </li><br>
+        <li>
+            <label for="Imię">Imię: </label>
+            <input type="text" name="Imię" id="Imię">
+            <label for="Nazwisko">Nazwisko: </label>
+            <input type="text" name="Nazwisko" id="Nazwisko">
+        </li>
+    </ul>
+    <input type="submit" value="Wyślij">
+    </form>
+
+</body>
+</html>
